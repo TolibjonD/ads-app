@@ -58,7 +58,7 @@ export default function VideoCarousel() {
 
             {/* Overlay Content */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/50">
-                <h1 className="text-4xl font-bold">{videos[currentVideo].title}</h1>
+                <h1 className="text-4xl font-bold text-center">{videos[currentVideo].title}</h1>
                 {videos[currentVideo].content && (
                     <p className="md:w-96 bg-white/10 p-5 backdrop-blur rounded-lg shadow w-4/5 my-2 text-sm text-center">
                         {videos[currentVideo].content}
