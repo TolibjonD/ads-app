@@ -81,7 +81,7 @@ export default function VideoCarousel() {
                     variant="Outline"
                 />
                 <div>
-                    <h1 className="text-lg text-center font-bold bg-white/20 p-1 rounded-full w-10 h-10 flex items-center justify-center">+5</h1>
+                    <h1 className="text-lg  font-bold bg-white/20 p-1 rounded-full w-10 h-10 flex items-center justify-center">+5</h1>
                     <p className="text-xs mt-1 font-medium">Drizzle outside</p>
                 </div>
             </div>
